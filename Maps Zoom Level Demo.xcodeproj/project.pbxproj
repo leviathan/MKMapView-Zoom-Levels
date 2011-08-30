@@ -23,6 +23,8 @@
 		1FD73943140CFFF60033F532 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FD73941140CFFF60033F532 /* InfoPlist.strings */; };
 		1FD73945140CFFF60033F532 /* Maps_Zoom_Level_DemoTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 1FD73944140CFFF60033F532 /* Maps_Zoom_Level_DemoTests.h */; };
 		1FD73947140CFFF60033F532 /* Maps_Zoom_Level_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD73946140CFFF60033F532 /* Maps_Zoom_Level_DemoTests.m */; };
+		1FD73956140D003B0033F532 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FD73955140D003B0033F532 /* MapKit.framework */; };
+		1FD73959140D01640033F532 /* MKMapView+ZoomLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD73958140D01640033F532 /* MKMapView+ZoomLevel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,22 +42,25 @@
 		1FD73916140CFFF50033F532 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1FD73918140CFFF50033F532 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1FD7391A140CFFF50033F532 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1FD7391E140CFFF50033F532 /* Maps Zoom Level Demo-Info.plist */ = {isa = PBXFileReference; path = "Maps Zoom Level Demo-Info.plist"; sourceTree = "<group>"; };
+		1FD7391E140CFFF50033F532 /* Maps Zoom Level Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Maps Zoom Level Demo-Info.plist"; sourceTree = "<group>"; };
 		1FD73920140CFFF50033F532 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1FD73922140CFFF50033F532 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1FD73924140CFFF50033F532 /* Maps Zoom Level Demo-Prefix.pch */ = {isa = PBXFileReference; path = "Maps Zoom Level Demo-Prefix.pch"; sourceTree = "<group>"; };
-		1FD73925140CFFF50033F532 /* Maps_Zoom_Level_DemoAppDelegate.h */ = {isa = PBXFileReference; path = Maps_Zoom_Level_DemoAppDelegate.h; sourceTree = "<group>"; };
+		1FD73924140CFFF50033F532 /* Maps Zoom Level Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Maps Zoom Level Demo-Prefix.pch"; sourceTree = "<group>"; };
+		1FD73925140CFFF50033F532 /* Maps_Zoom_Level_DemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Maps_Zoom_Level_DemoAppDelegate.h; sourceTree = "<group>"; };
 		1FD73926140CFFF50033F532 /* Maps_Zoom_Level_DemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Maps_Zoom_Level_DemoAppDelegate.m; sourceTree = "<group>"; };
 		1FD73929140CFFF50033F532 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		1FD7392B140CFFF50033F532 /* Maps_Zoom_Level_DemoViewController.h */ = {isa = PBXFileReference; path = Maps_Zoom_Level_DemoViewController.h; sourceTree = "<group>"; };
+		1FD7392B140CFFF50033F532 /* Maps_Zoom_Level_DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Maps_Zoom_Level_DemoViewController.h; sourceTree = "<group>"; };
 		1FD7392C140CFFF50033F532 /* Maps_Zoom_Level_DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Maps_Zoom_Level_DemoViewController.m; sourceTree = "<group>"; };
 		1FD7392F140CFFF50033F532 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Maps_Zoom_Level_DemoViewController.xib; sourceTree = "<group>"; };
 		1FD73936140CFFF60033F532 /* Maps Zoom Level DemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Maps Zoom Level DemoTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD73937140CFFF60033F532 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		1FD73940140CFFF60033F532 /* Maps Zoom Level DemoTests-Info.plist */ = {isa = PBXFileReference; path = "Maps Zoom Level DemoTests-Info.plist"; sourceTree = "<group>"; };
+		1FD73940140CFFF60033F532 /* Maps Zoom Level DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Maps Zoom Level DemoTests-Info.plist"; sourceTree = "<group>"; };
 		1FD73942140CFFF60033F532 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1FD73944140CFFF60033F532 /* Maps_Zoom_Level_DemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Maps_Zoom_Level_DemoTests.h; sourceTree = "<group>"; };
 		1FD73946140CFFF60033F532 /* Maps_Zoom_Level_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Maps_Zoom_Level_DemoTests.m; sourceTree = "<group>"; };
+		1FD73955140D003B0033F532 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1FD73957140D01640033F532 /* MKMapView+ZoomLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKMapView+ZoomLevel.h"; sourceTree = "<group>"; };
+		1FD73958140D01640033F532 /* MKMapView+ZoomLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+ZoomLevel.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FD73956140D003B0033F532 /* MapKit.framework in Frameworks */,
 				1FD73917140CFFF50033F532 /* UIKit.framework in Frameworks */,
 				1FD73919140CFFF50033F532 /* Foundation.framework in Frameworks */,
 				1FD7391B140CFFF50033F532 /* CoreGraphics.framework in Frameworks */,
@@ -105,6 +111,7 @@
 		1FD73915140CFFF50033F532 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1FD73955140D003B0033F532 /* MapKit.framework */,
 				1FD73916140CFFF50033F532 /* UIKit.framework */,
 				1FD73918140CFFF50033F532 /* Foundation.framework */,
 				1FD7391A140CFFF50033F532 /* CoreGraphics.framework */,
@@ -123,6 +130,8 @@
 				1FD7392C140CFFF50033F532 /* Maps_Zoom_Level_DemoViewController.m */,
 				1FD7392E140CFFF50033F532 /* Maps_Zoom_Level_DemoViewController.xib */,
 				1FD7391D140CFFF50033F532 /* Supporting Files */,
+				1FD73957140D01640033F532 /* MKMapView+ZoomLevel.h */,
+				1FD73958140D01640033F532 /* MKMapView+ZoomLevel.m */,
 			);
 			path = "Maps Zoom Level Demo";
 			sourceTree = "<group>";
@@ -268,6 +277,7 @@
 				1FD73923140CFFF50033F532 /* main.m in Sources */,
 				1FD73927140CFFF50033F532 /* Maps_Zoom_Level_DemoAppDelegate.m in Sources */,
 				1FD7392D140CFFF50033F532 /* Maps_Zoom_Level_DemoViewController.m in Sources */,
+				1FD73959140D01640033F532 /* MKMapView+ZoomLevel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +384,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Maps Zoom Level Demo/Maps Zoom Level Demo-Prefix.pch";
 				INFOPLIST_FILE = "Maps Zoom Level Demo/Maps Zoom Level Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -385,6 +396,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Maps Zoom Level Demo/Maps Zoom Level Demo-Prefix.pch";
 				INFOPLIST_FILE = "Maps Zoom Level Demo/Maps Zoom Level Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -443,6 +455,7 @@
 				1FD7394C140CFFF60033F532 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FD7394D140CFFF60033F532 /* Build configuration list for PBXNativeTarget "Maps Zoom Level DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +464,7 @@
 				1FD7394F140CFFF60033F532 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
